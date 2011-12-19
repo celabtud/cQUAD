@@ -36,7 +36,7 @@ int Append_to_flat_profile
 			if (start_addy>Max_addy) Max_addy=start_addy;
 			
 			// write the current record to the flat profile
-			if (fprintf(flatprofile,"%lld %lld \n",start_PTS,start_CTS)<=0)
+			if (fprintf(flatprofile,"%lld %lld %lld %lld %lld [%llX] %d\n",start_PTS,start_CTS,start_PSN,start_CSN,start_addy,start_addy,size)<=0)
 				returnvalue=1; 
 			
 			start_PTS=current_PTS;
