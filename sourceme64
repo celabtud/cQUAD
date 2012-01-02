@@ -1,0 +1,7 @@
+export IMRANHOME=/home/iashraf
+export PIN_HOME=${IMRANHOME}/pin2.8
+export QUADHOME=$PINHOME/myTools/QUAD/obj-intel64
+export CQUADHOME=$PINHOME/myTools/cQUAD/obj-intel64
+export MAIPHOME=$PINHOME/myTools/MAIP/obj-intel64
+export PATH=/home/iasraf/bin:$PIN_HOME:$PATH
+
